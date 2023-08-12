@@ -17,10 +17,10 @@ description = """
 Decorates a `Service` to allow easy composition between `Service`s.
 """
 categories = ["asynchronous", "network-programming"]
-edition = "2018"
+edition = "2021"
 
 [dependencies]
 
 [dev-dependencies]
-tower-service = { version = "0.3.0", path = "../tower-service" }
+tower-service = { version = "0.3", path = "../tower-service" }
 tower = { version = "0.4", path = "../tower" }
